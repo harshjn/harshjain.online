@@ -1,3 +1,5 @@
+
+
 name: Build and Release APK
 on: push
 jobs:
@@ -25,7 +27,7 @@ jobs:
         - name: Deploy Firebase Hosting
           uses: w9jds/firebase-action@master
           with:
-            args: deploy --only hosting:harshjain-online
+            args: deploy --only hosting:web-johannesmilke
           env:
             FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
             PROJECT_PATH: ./
