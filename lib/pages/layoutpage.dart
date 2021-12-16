@@ -3,7 +3,7 @@ import 'package:DeveloperFolio/configure/centeredview.dart';
 import 'package:DeveloperFolio/configure/navigation_service.dart';
 import 'package:DeveloperFolio/include/navbar/drawer/drawernav.dart';
 import 'package:DeveloperFolio/include/navbar/navigationbar.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide NavigationBar;
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:DeveloperFolio/configure/routing.dart';
 
